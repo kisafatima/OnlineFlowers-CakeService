@@ -1,0 +1,248 @@
+body{
+    font-family: 'Playfair Display', serif;
+}
+figcaption{
+    text-align: center;
+}
+.location{
+    display: inline-block;
+}
+
+.address{
+    font-size: 16px;
+    padding: 15px 150px 15px 10px;
+    
+}
+#addtitle{
+    font-size: 20px;
+}
+#locations{
+    padding:0% 15% 0% 15%;
+}
+i{
+    font-size: 200px;
+}
+#navbar{
+    /* background-color: #F59BAF; */
+    background-color: #EF9A9A;
+    color: white;
+    position: sticky;
+}
+.nav{
+    padding-right: 40px;
+}
+h1{
+    text-align: center;
+}
+#spc{
+    width: 730px;
+}
+.button{
+    background-color: #E57373;
+    color: white;
+    border: #E57373 1PX solid;
+    font-weight: 100;
+    font-size: 16px;
+    padding: 15px 30px 15px 30px;
+    /* #942036 */
+}
+#adddiv{
+    padding: 30px 0px 200px 30px;
+    background-image: url('Images/gift-flower-fb-cover-photo_roses.jpg');
+    background-repeat: no-repeat;
+
+}
+h1, h2{
+    color: #E57373;
+    text-shadow: #ff6666 1px 1px;
+}
+#adddiv form{
+    padding-top: 20px;
+}
+#heading{
+    font-size: 20px;
+}
+#heading span{
+    text-decoration: none;
+}
+#serviceinfo{
+    margin: 60px 700px 20px 70px ;
+    padding: 10px 50px 20px 40px;
+    background-color: white;
+}
+#service{
+    margin-top: 150px;
+    padding: 50px 0px 10px 0px;
+    background-image: url('Images/flowers.png');
+    background-size: 50% 100%;
+    background-position-x: right;
+    /* background-repeat: no-repeat; */
+}
+#getstarted{
+    margin-left:280px ;
+}
+#cities{
+    margin-top: 100px;
+}
+a:link,a:hover, a:visited, a:active{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Isl_Stores css */
+.shops{
+    margin: 40px 10px 40px 10px;
+    justify-content: space-around;
+}
+.shop{
+    
+    margin: 10px;
+    display: inline-block;
+    padding: 10px;
+    border: 2px solid rgb(189, 185, 185);
+  border-radius: 5px;
+}
+
+
+/* Cart css */
+.gcolor,#gcolor{
+    color: grey;
+    text-align: center;
+}
+#cartitm{
+    padding: 20px 0px 50px 0px;
+}
+
+@media only screen and (max-width:1200px){
+    #serviceinfo{
+        margin: 10px 100px 10px 10px;
+    }
+    #spc{
+        width: 40%;        
+    }
+}
+@media only screen and (max-width:600px){
+    #serviceinfo{
+        margin: 10px 10px 10px 10px;
+    }
+    #getstarted{
+        margin-left: 200px;
+    }
+    .address{
+        font-size: 16px;
+        padding: 15px 40px 15px 10px;
+    }
+    .button{
+        padding: 15px 20px 15px 20px;
+    }
+    #spc{
+        width: 0px;
+    }        
+    .nav span{
+        display: none;
+    }
+    .nav i{
+        font-size: 24px;
+    }
+    .shop{
+        margin: 0px 15% 10px 15%;
+    }
+}
+
+
+
+
+
+
+.form {
+    border: 3px solid #f1f1f1;
+  }
+
+  .input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  .reg {
+   
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    width: 100%;
+  }
+  
+  
+  /* Extra style for the cancel button (red) */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: rgb(56, 139, 0);
+  }
+  
+  H1{
+      text-align: center;
+      color: rgb(221, 127, 142);
+  }
+  
+  
+  /* Add padding to containers */
+  .container {
+    padding: 16px;
+  }
+  
+  /* The "Forgot password" text */
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  }
+.shops{
+    margin: 40px 10px 40px 10px;
+}
+.shop{
+    margin: 10px;
+    display: inline-block;
+    padding: 10px;
+    border: 2px solid rgb(189, 185, 185);
+  border-radius: 5px;
+}
+.small{
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
