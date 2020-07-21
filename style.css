@@ -1,6 +1,9 @@
 body{
     font-family: 'Playfair Display', serif;
 }
+#head{
+    display:none;
+}
 figcaption{
     text-align: center;
 }
@@ -127,17 +130,17 @@ a:link,a:hover, a:visited, a:active{
         margin: 10px 10px 10px 10px;
     }
     #getstarted{
-        margin-left: 200px;
+        margin-left: 160px;
     }
     .address{
         font-size: 16px;
-        padding: 15px 40px 15px 10px;
+        padding: 15px 30px 15px 10px;
     }
     .button{
         padding: 15px 20px 15px 20px;
     }
     #spc{
-        width: 0px;
+        width: 15%;
     }        
     .nav span{
         display: none;
@@ -145,8 +148,14 @@ a:link,a:hover, a:visited, a:active{
     .nav i{
         font-size: 24px;
     }
+    #heading{
+        display:none;
+    }
     .shop{
         margin: 0px 15% 10px 15%;
+    }
+    #head{
+        display:center;
     }
 }
 
